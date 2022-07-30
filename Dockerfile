@@ -12,3 +12,5 @@ FROM scratch
 COPY --from=builder /opt/hello /opt/hello
 #CMD ["go", "build", "hello.go"]
 ENTRYPOINT [ "/opt/hello" ]
+
+#imagem gerada https://hub.docker.com/r/fbiazi/codeeducation
